@@ -26,7 +26,8 @@ const config = {
     },
     devServer: {
         hot: true,
-        inline: true
+        inline: true,
+        historyApiFallback: true
     },
     plugins: [
         new webpack.NoEmitOnErrorsPlugin(),
